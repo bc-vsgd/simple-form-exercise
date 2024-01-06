@@ -8,7 +8,6 @@ const register = (event, props, password2) => {
       passwordMessage.classList.remove("invisible");
     } else {
       passwordMessage.classList.add("invisible");
-
       setName(name);
       setEmail(email);
       setPassword(password);

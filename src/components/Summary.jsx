@@ -19,7 +19,6 @@ const Summary = (props) => {
           Edit your information
         </button>
       </div>
-      {/* <div className="invisible summary container "> */}
     </div>
   );
 };
