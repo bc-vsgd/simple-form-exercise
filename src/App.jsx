@@ -9,6 +9,7 @@ function App() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  console.log(process.env.API_URL);
   return (
     <>
       <Header />
@@ -23,6 +24,7 @@ function App() {
         />
         <Summary name={name} email={email} password={password} />
       </main>
+
       <Footer />
     </>
   );
